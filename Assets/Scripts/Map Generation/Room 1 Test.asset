@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b59f92ba3c4964d83b5478809b13c6, type: 3}
+  m_Name: Room 1 Test
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  usesDoors: 0
+  roomSizeX: 15
+  roomSizeY: 15
+  roomSizeRandom: 15
+  roomSizeVariance: 6
+  roomType: 0
+  usesEnemies: 0
+  lowEncounterRate: 0
+  highEncounterRate: 0
+  floorPrefab: {fileID: 5574229591891595129, guid: 6f27ccd5b70298c4d8d21488fe898e26, type: 3}
+  wallPrefab: {fileID: 5353106936681178397, guid: 7543264db48b50046b821bcac0039308, type: 3}
+  doorPrefab: {fileID: 4787674803250867329, guid: 624ccbdce960be94cb953a297bc22882, type: 3}
+  stairsPrefab: {fileID: 5646675950874107464, guid: 40931e4a3eb73034cb682dc4e8c39227, type: 3}
+  encounterTypes: []
+  minimumRooms: 8
+  maximumRooms: 10
+  mapSizeX: 60
+  mapSizeY: 60
