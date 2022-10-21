@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
-public class DungeonManager : MonoBehaviour
+public class DungeonManagerNav : MonoBehaviour
 {
     [Range(50, 2000)]
     public int totalFloorCount = 500;

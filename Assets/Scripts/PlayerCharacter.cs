@@ -5,4 +5,6 @@ using UnityEngine;
 
 public class PlayerCharacter : Entity
 {
+    public int maxMP;
+    public int currentMP;
 }

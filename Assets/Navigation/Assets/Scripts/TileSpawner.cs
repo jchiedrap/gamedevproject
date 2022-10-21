@@ -3,11 +3,11 @@ using UnityEngine;
 
 public class TileSpawner : MonoBehaviour
 {
-    private DungeonManager _dm;
+    private DungeonManagerNav _dm;
 
     private void Awake()
     {
-        _dm = FindObjectOfType<DungeonManager>();
+        _dm = FindObjectOfType<DungeonManagerNav>();
 
         // Convert this spawner to a floor tile. Because we're going to spawn walls in
         // unoccupied tiles, we need to make sure the floor exists before the walls are placed.

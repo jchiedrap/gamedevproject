@@ -21,4 +21,9 @@ public class LevelManager : MonoBehaviour
         else
             _instance = this;
     }
+
+    public void LoadMap(HashSet<Cell> map)
+    {
+        throw new NotImplementedException();
+    }
 }

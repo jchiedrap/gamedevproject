@@ -9,6 +9,8 @@ public class EncounterHandler : MonoBehaviour
     public int highEncounterRate, lowEncounterRate, stepsBeforeEncounter;
     
     public List<EncounterType> encounterTypes;
+    public GameObject encounterUI;
+    public GameObject encounterUIPrefab;
 
     private void Start()
     {
@@ -32,6 +34,9 @@ public class EncounterHandler : MonoBehaviour
         EncounterType encounterType = encounterTypes[encounterIndex];
         
         // TODO: call event handler and tell it it's busy, then enable the UI, then start the encounter logic
+        LevelManager.Instance.inputController.eventHappening = true;
+        encounterUI = Instantiate(encounterUIPrefab, Vector3.zero, Quaternion.identity);
+
         Debug.Log("Starting encounter: " + encounterType.name);
     }
 

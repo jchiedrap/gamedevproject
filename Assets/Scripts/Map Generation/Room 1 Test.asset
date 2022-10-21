@@ -22,11 +22,11 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   usesDoors: 0
-  roomSizeX: 15
-  roomSizeY: 15
-  roomSizeRandom: 15
-  roomSizeVariance: 6
-  roomType: 0
+  roomSizeX: 10
+  roomSizeY: 10
+  roomSizeRandom: 20
+  roomSizeVariance: 1
+  roomType: 1
   usesEnemies: 0
   lowEncounterRate: 0
   highEncounterRate: 0
@@ -35,7 +35,7 @@ MonoBehaviour:
   doorPrefab: {fileID: 4787674803250867329, guid: 624ccbdce960be94cb953a297bc22882, type: 3}
   stairsPrefab: {fileID: 5646675950874107464, guid: 40931e4a3eb73034cb682dc4e8c39227, type: 3}
   encounterTypes: []
-  minimumRooms: 8
-  maximumRooms: 10
+  minimumRooms: 12
+  maximumRooms: 16
   mapSizeX: 60
   mapSizeY: 60

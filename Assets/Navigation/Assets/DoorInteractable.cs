@@ -6,15 +6,11 @@ public class DoorInteractable : Interactable
 {
     public bool isLocked = false;
     public bool isTransitioning = false;
-    PlayerInputController p;
-
-    private void Start() {
-        p = FindObjectOfType<PlayerInputController>();
-    }
+    public PlayerInputController p = LevelManager.Instance.inputController;
 
     override public void PerformInteraction() {
         if (ConditionsMet()) {
-            StartCoroutine("callFade");
+            StartCoroutine(nameof(CallFade));
         }
     }
 
@@ -27,7 +23,7 @@ public class DoorInteractable : Interactable
         return !isLocked;
     }
 
-    IEnumerator callFade() 
+    IEnumerator CallFade() 
     {
         p.GetComponentInChildren<Curtain>().Fade(true);
         yield return new WaitForSeconds(1);

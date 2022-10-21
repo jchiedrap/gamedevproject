@@ -5438,6 +5438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1561885140}
   - component: {fileID: 1561885141}
+  - component: {fileID: 1561885142}
   m_Layer: 6
   m_Name: Map
   m_TagString: Untagged
@@ -5480,6 +5481,23 @@ MonoBehaviour:
   encounterTypes:
   - {fileID: 11400000, guid: 5e8651d9f93640f4eb69ff3c8eec3c5d, type: 2}
   - {fileID: 11400000, guid: 545f82a0aa129914fa2ccd2da80409d0, type: 2}
+  encounterUI: {fileID: 0}
+  encounterUIPrefab: {fileID: 0}
+--- !u!114 &1561885142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561885139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb30359a072ec3b47b747ab71c882a67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputController: {fileID: 1418389589}
+  encounterHandler: {fileID: 1561885141}
+  partyController: {fileID: 0}
 --- !u!1 &1644354045
 GameObject:
   m_ObjectHideFlags: 0
@@ -6364,6 +6382,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isLocked: 0
   isTransitioning: 0
+  p: {fileID: 0}
 --- !u!135 &1786238088
 SphereCollider:
   m_ObjectHideFlags: 0

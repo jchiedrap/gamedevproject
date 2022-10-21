@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Fire Spell I
+  m_EditorClassIdentifier: Assembly-CSharp::Skill
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  name: Fire Spell I
+  description: The most basic fire spell!
+  type: 0
+  icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  cost: 10
+  elementType: 3
+  damageType: 1
+  damageScaling: 100
+  stat: 2
+  damageAccuracy: 0.95
+  damageStatus: 12
+  damageStatusAccuracy: 0.2
+  healScaling: 0
+  healStat: 0
+  buffPercentage: 0
+  buffStat: 0
+  debuffPercentage: 0
+  debuffStat: 0
+  debuffAccuracy: 0
+  status: 0
+  statusDuration: 0
+  statusAccuracy: 0
